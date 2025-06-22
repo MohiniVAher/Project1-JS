@@ -18,7 +18,7 @@ document.getElementById("admin-form").addEventListener('submit',function(event){
   //console.log(password);
   
   //session 19
-  //Now we are going to store this username and password to verify 
+  //Now store this username and password to verify 
   
   const storedUsername = "admin";
   const storedPswd = "password";
@@ -30,7 +30,7 @@ document.getElementById("admin-form").addEventListener('submit',function(event){
       
       controlOfUserMsgsSection.style.display = "block";
       
-      //call the function to display user messages
+      //calling the function to display user messages
       displayStoredMessages();
     }
   else{
@@ -50,7 +50,7 @@ document.getElementById("contact-me-form").addEventListener('submit',function(ev
   //console.log(new Date());
   //console.log(response);
   
-  //create a reference to your Dummy database
+  //create a reference to Dummy database
   
   // const DummyDB = JSON.parse(localStorage.getItem('DummyDB')) || [];
   let DummyDB = JSON.parse(localStorage.getItem('DummyDB'));
