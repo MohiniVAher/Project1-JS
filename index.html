@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Mohini's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head> 
+    <body>
+      <header>
+        <h1>Mohini</h1>
+      <p><span class ="edu">Educator</span> and<span class ="soft"> Software Engineer</span></p>
+        </header>
+      <nav>
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Hobbies</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+          <li><a href="#admin-login" onClick="showAdminSection()">Admin Login</a></li>
+         </ul>   
+  </nav>
+      <button id="toggle-btn">Toggle Theme</button>
+  <main>
+        <section class = "section-group" id ="education">
+        <h2>Education</h2>
+        <div class= "">
+          <h3>Masters in Computer Application</h3>
+          <p>Modern College</p>
+         </div> 
+        <div class= "">
+          <h3>Batchelors in Computer Science</h3>
+          <p>MSG College</p>
+         </div> 
+        <div class= "">
+          <h3>High School</h3>
+          <p>RBH Vidyalaya, Malegaon</p>
+         </div> 
+          </section>
+        <section class = "section-group " id ="projects">
+        <h2>Projects</h2>
+        <div class= "">
+          <h3>Project 1</h3>
+          <p>One line about Project</p>
+         </div> 
+        <div class= "">
+          <h3>Project 2</h3>
+          <p>One line about Project</p>
+         </div> 
+        <div class= "">
+          <h3>Project 3</h3>
+          <p>One line about Project</p>
+         </div> 
+          </section>
+        <section class ="section-group" id ="experience">
+        <h2>Experience</h2>
+        <div class= "">
+          <h3>Assistant Teacher At Horizon Academy</h3>
+          <p>2018-2019</p>
+         </div> 
+        <div class= "">
+          <h3>Assistant Teacher At V J International School</h3>
+          <p>2019</p>
+         </div> 
+        <div class= "">
+          <h3>Technical Trainer at Coaching Institute</h3>
+          <p>2023-present</p>
+         </div> 
+          </section>
+        <section class ="section-group" id ="contact-me">
+          <h2>Contact me</h2>
+          <form id ="contact-me-form">
+            <div class ="form-row">
+            <label>Name</label>
+            <input type ="text" id ="your-name" placeholder="Enter your name">
+            </div>
+            <div class ="form-row">
+            <label>Email</label>
+            <input type ="email" id ="your-email" placeholder="Enter your email">
+            </div>
+            <div class ="form-row">
+            <label>Your Message</label>
+            <textarea id ="your-msg" placeholder="Write your message here"></textarea>
+             </div>
+            <br>
+            <div class="sendbtn">
+            <button id = "">Send </button> 
+            </div>  
+          </form>  
+         </section>
+          <section class ="section-group" id ="admin-login">
+          <h2>Admin Login</h2>
+          <form id ="admin-form">
+            <label>Username</label>
+            <input type ="text" id ="usrname">
+            <label>Password</label>
+            <input type ="password" id ="pswd">
+            <p>
+            <button type ="submit" id = "">Submit</button> 
+          </form>  
+         </section> 
+        <section class ="section-group" id ="user-messages">
+          <h2>User Messages</h2>
+          <div id ="sari-messages">
+            </div>
+         </section>
+        </main>
+        <script src="index.js"></script>
+    </body> 
+</html>

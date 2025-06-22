@@ -1,0 +1,147 @@
+header{
+  text-align:center;
+  background-color:#1279f1;
+  padding:50px 0 0 0; /*top, right, bottom,left*/
+  border:10px;
+  border-color:#1b12dc;
+  border-style:solid;
+  border-radius:10px;
+  margin:auto;
+}
+.soft{
+  color:blue;
+}
+.edu{
+  color:red;
+}
+nav{
+  background-color:#2c3e50;
+  padding:2px;
+}
+nav ul{
+  list-style-type:none;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+}
+nav ul li a{
+  color:#fff;
+  text-decoration:none;
+  margin: 0 15px;
+  list-style-type:none;
+  font-weight:bold;
+}
+nav ul li a:hover{
+  color:#28d1f7;
+  border:2px;
+  border-style:solid;
+  border-color:#28f7e7;
+  border-radius:6px;
+  padding:2px;
+}
+.section-group{
+  background-color:#fff;
+  padding:3rem 2rem;
+  box-shadow:0 0 30px rgba(0,0,0,0.2);
+  border-radius:8px;
+}
+.section-group h2{
+  color:#3498db;
+  border-bottom:2px solid #3498db;
+  padding-bottom:0.5rem;          /*0.5 of my root element*/
+  margin-bottom:1.5rem;
+}
+.section-group h2:hover{
+  color:#28d1f7;
+  border:2px;
+  border-style:solid;
+  border-color:#28f7e7;
+  border-radius:6px;
+  padding:2px;
+}
+.section-group input textarea{
+  border-radius:4px;
+  border:2px solid #3498db;
+  padding:0.5rem;
+  margin-bottom:1 rem;
+}
+.section-group button{
+  background-color:#3498db;
+  color:#333;
+  border-radius:4px;
+  width:200px;
+  transition:background-color 0.5s ease;
+}
+.section-group button:hover{
+  background-color:green;
+}
+#admin-login{
+  display:none;
+}
+#user-messages{
+  display:none;
+}
+.sendbtn{
+  display:flex;
+  justify-content:left;
+  margin-left:45px;
+}
+
+#your-name,#your-email{
+  margin-left:50px;
+}
+.form-row{
+  display:flex;
+  align-items:center;
+  margin:10px 0;
+}
+#toggle-btn{
+  position:fixed;
+  top:20px;
+  right:20px;
+  background-color:black;
+  color:#fff;
+  cursor:pointer;
+  border-radius:8px;
+  transition:background-color 0.5s ease;
+}
+#toggle-btn:hover{
+  background-color:#3498db;
+}
+.dark-mode{
+  background-color:#34495c;
+/*   color:#3e3b40; */
+  color:white;
+}
+.dark-mode header{
+  background-color:#34455e;
+  color: white;
+}
+.dark-mode nav{
+  background-color:#555;
+}
+/* Dark mode for section boxes */
+.dark-mode .section-group {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Dark mode for inputs and textarea */
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #444;
+  color: white;
+  border: 1px solid #777;
+}
+/* Dark mode for buttons */
+.dark-mode button {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background-color: green;
+}
+
+
